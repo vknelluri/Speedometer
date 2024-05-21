@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+}
+
+.description {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #94a3b8;
+}
+
+.button,
+.button2 {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: #0b69ff;
+  color: white;
+}
+
+.button2 {
+  background-color: #94a3b8;
+  color: white;
+}
+
+.button:focus,
+.button2:focus {
+  outline: none;
+}
